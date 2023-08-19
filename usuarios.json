@@ -1,152 +1,131 @@
 {
-  "chave primaria" : "email",
-  "usuarios" : {
-    "joaozinhogameplay@gmail.com" : {
-      "nome" : "Joao",
-      "idade" : 12,
-      "assinante premium" : true,
-      "endereco" : {
+  "usuarios": [
+    {
+      "email": "joaozinhogameplay@gmail.com",
+      "nome": "Joao",
+      "idade": 12,
+      "assinante premium": true,
+      "endereco": {
         "logradouro": "Rua do Fogo",
-        "numero" : 123,
-        "cidade" : "Cidade Maravilhosa",
-        "estado" : "Rio de Janeiro",
-        "pais" : "Brasil"
+        "numero": 123,
+        "cidade": "Cidade Maravilhosa",
+        "estado": "Rio de Janeiro",
+        "pais": "Brasil"
       },
-      "jogos favoritos" : [
-        "Minecraft",
-        "Fortnite",
-        "Roblox"
-      ],
-      "configuracoes" : {
-        "linguagem" : "Português",
-        "notificacoes" : true
+      "jogos favoritos": ["Minecraft", "Fortnite", "Roblox"],
+      "configuracoes": {
+        "linguagem": "Português",
+        "notificacoes": true
       }
     },
-    "mariasilva@hotmail.com" : {
-      "nome" : "Maria",
-      "idade" : 32,
-      "assinante premium" : false,
-      "endereco" : {
+    {
+      "email": "mariasilva@hotmail.com",
+      "nome": "Maria",
+      "idade": 32,
+      "assinante premium": false,
+      "endereco": {
         "logradouro": "Rua das Flores",
-        "numero" : 500,
-        "cidade" : "Cidade Linda",
-        "estado" : "São Paulo",
-        "pais" : "Brasil"
+        "numero": 500,
+        "cidade": "Cidade Linda",
+        "estado": "São Paulo",
+        "pais": "Brasil"
       },
-      "jogos favoritos" : [
-        "The Sims 4",
-        "Animal Crossing",
-        "Final Fantasy VII"
-      ],
-      "configuracoes" : {
-        "linguagem" : "Português",
-        "notificacoes" : true
+      "jogos favoritos": ["The Sims 4", "Animal Crossing", "Final Fantasy VII"],
+      "configuracoes": {
+        "linguagem": "Português",
+        "notificacoes": true
       }
     },
-    "paulopereira@yahoo.com" : {
-      "nome" : "Paulo",
-      "idade" : 45,
-      "assinante premium" : false,
-      "endereco" : {
+    {
+      "email": "paulopereira@yahoo.com",
+      "nome": "Paulo",
+      "idade": 45,
+      "assinante premium": false,
+      "endereco": {
         "logradouro": "Avenida Central",
-        "numero" : 789,
-        "cidade" : "Belo Horizonte",
-        "estado" : "Minas Gerais",
-        "pais" : "Brasil"
+        "numero": 789,
+        "cidade": "Belo Horizonte",
+        "estado": "Minas Gerais",
+        "pais": "Brasil"
       },
-      "jogos favoritos" : [
-        "PUBG",
-        "FIFA 2023",
-        "F1 2023"
-      ],
-      "configuracoes" : {
-        "linguagem" : "Português",
-        "notificacoes" : false
+      "jogos favoritos": ["PUBG", "FIFA 2023", "F1 2023"],
+      "configuracoes": {
+        "linguagem": "Português",
+        "notificacoes": false
       }
     },
-    "carlosneto@gmail.com" : {
-      "nome" : "Carlos",
-      "idade" : 20,
-      "assinante premium" : true,
-      "endereco" : {
+    {
+      "email": "carlosneto@gmail.com",
+      "nome": "Carlos",
+      "idade": 20,
+      "assinante premium": true,
+      "endereco": {
         "logradouro": "Rua do Sol",
-        "numero" : 1000,
-        "cidade" : "Recife",
-        "estado" : "Pernambuco",
-        "pais" : "Brasil"
+        "numero": 1000,
+        "cidade": "Recife",
+        "estado": "Pernambuco",
+        "pais": "Brasil"
       },
-      "jogos favoritos" : [
-        "League of Legends",
-        "CS:GO",
-        "Valorant"
-      ],
-      "configuracoes" : {
-        "linguagem" : "Português",
-        "notificacoes" : true
+      "jogos favoritos": ["League of Legends", "CS:GO", "Valorant"],
+      "configuracoes": {
+        "linguagem": "Português",
+        "notificacoes": true
       }
     },
-    "lucasoliveira@gmail.com" : {
-      "nome" : "Lucas",
-      "idade" : 22,
-      "assinante premium" : true,
-      "endereco" : {
+    {
+      "email": "lucasoliveira@gmail.com",
+      "nome": "Lucas",
+      "idade": 22,
+      "assinante premium": true,
+      "endereco": {
         "logradouro": "Rua da Harmonia",
-        "numero" : 222,
-        "cidade" : "Salvador",
-        "estado" : "Bahia",
-        "pais" : "Brasil"
+        "numero": 222,
+        "cidade": "Salvador",
+        "estado": "Bahia",
+        "pais": "Brasil"
       },
-      "jogos favoritos" : [
-        "Overwatch",
-        "Apex Legends",
-        "Hearthstone"
-      ],
-      "configuracoes" : {
-        "linguagem" : "Português",
-        "notificacoes" : false
+      "jogos favoritos": ["Overwatch", "Apex Legends", "Hearthstone"],
+      "configuracoes": {
+        "linguagem": "Português",
+        "notificacoes": false
       }
     },
-    "juliafernandes@hotmail.com" : {
-      "nome" : "Julia",
-      "idade" : 30,
-      "assinante premium" : false,
-      "endereco" : {
+    {
+      "email": "juliafernandes@hotmail.com",
+      "nome": "Julia",
+      "idade": 30,
+      "assinante premium": false,
+      "endereco": {
         "logradouro": "Avenida da Liberdade",
-        "numero" : 789,
-        "cidade" : "Rio Grande",
-        "estado" : "Rio Grande do Sul",
-        "pais" : "Brasil"
+        "numero": 789,
+        "cidade": "Rio Grande",
+        "estado": "Rio Grande do Sul",
+        "pais": "Brasil"
       },
-      "jogos favoritos" : [
-        "Horizon Zero Dawn",
-        "God of War",
-        "The Last of Us Part II"
-      ],
-      "configuracoes" : {
-        "linguagem" : "Português",
-        "notificacoes" : true
+      "jogos favoritos": ["Horizon Zero Dawn", "God of War", "The Last of Us Part II"],
+      "configuracoes": {
+        "linguagem": "Português",
+        "notificacoes": true
       }
     },
-    "robertosilva@yahoo.com" : {
-      "nome" : "Roberto",
-      "idade" : 38,
-      "assinante premium" : false,
-      "endereco" : {
+    {
+      "email": "robertosilva@yahoo.com",
+      "nome": "Roberto",
+      "idade": 38,
+      "assinante premium": false,
+      "endereco": {
         "logradouro": "Rua das Oliveiras",
-        "numero" : 456,
-        "cidade" : "Vitória",
-        "estado" : "Espírito Santo",
-        "pais" : "Brasil"
+        "numero": 456,
+        "cidade": "Vitória",
+        "estado": "Espírito Santo",
+        "pais": "Brasil"
       },
-      "jogos favoritos" : [
-        "Rocket League",
-        "Super Mario Odyssey",
-        "The Legend of Zelda: Breath of the Wild"
-      ],
-      "configuracoes" : {
-        "linguagem" : "Português",
-        "notificacoes" : true
+      "jogos favoritos": ["Rocket League", "Super Mario Odyssey", "The Legend of Zelda: Breath of the Wild"],
+      "configuracoes": {
+        "linguagem": "Português",
+        "notificacoes": true
       }
     }
-  }
+  ]
 }
+
